@@ -6,7 +6,7 @@ then
   echo "Python 3 not install in your computer. Please install it before running this script again"
   exit 0
 fi
-$PYTHON_PATH -m pip install -r requirements.txt
+$PYTHON_PATH -m pip3 install -r requirements.txt
 
 MAIN_SCRIPT="$(pwd)/main.py"
 ZSH_SCRIPT="$PYTHON_PATH $MAIN_SCRIPT"
